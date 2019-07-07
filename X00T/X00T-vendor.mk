@@ -114,6 +114,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/asus/X00T/proprietary/vendor/lib/libUBWC.so:$(TARGET_COPY_OUT_VENDOR)/lib/libUBWC.so \
     vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_arc3dnr_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_arc3dnr_intf.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_hdr.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_night_shot.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_hdr.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_night_shot.so \
     vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_arcshdr_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_arcshdr_intf.so \
     vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
     vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so \
@@ -1405,7 +1409,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
     vendor/asus/X00T/proprietary/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
     vendor/asus/X00T/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_hq_beautyshot.so:system/lib64/libjni_hq_beautyshot.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_hq_night_shot.so:system/lib64/libjni_hq_night_shot.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_imageutil.so:system/lib64/libjni_imageutil.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_snapcammosaic.so:system/lib64/libjni_snapcammosaic.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_snapcamtinyplanet.so:system/lib64/libjni_snapcamtinyplanet.so \
     vendor/asus/X00T/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
+    vendor/asus/X00T/proprietary/lib64/libmpbase.so:system/lib64/libmpbase.so \
     vendor/asus/X00T/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/asus/X00T/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/asus/X00T/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
